@@ -41,3 +41,5 @@ with col2:
     st.metric(label="Total Emisi dalam Ton", value=f"{total_emisi_ton:.3f} ton CO₂")
 
 st.info("💡 Tips: Kurangi penggunaan kendaraan pribadi dan beralih ke energi efisien untuk menekan jejak karbon Anda!")
+st.markdown("---")
+st.caption("Dibuat oleh: **Salwa Fritzi Florian**")
