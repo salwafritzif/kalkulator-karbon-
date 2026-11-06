@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title("🌱 Kalkulator Jejak Karbon")
+st.title("🌱 Aplikasi Kalkulator Jejak Karbon")
 st.write("Hitung estimasi emisi karbon bulanan Anda berdasarkan aktivitas sehari-hari.")
-st.write("Dikembangkan oleh: **Salwa Fritzi Florian** dan **Hairi Ilham Subing**")
+st.write("Dibuat oleh: **Salwa Fritzi Florian** dan **Hairi Ilham Subing**")
 st.markdown("---")
 
 st.subheader("🚗 Transportasi")
