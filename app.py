@@ -2,6 +2,8 @@ import streamlit as st
 
 st.title("🌱 Kalkulator Jejak Karbon")
 st.write("Hitung estimasi emisi karbon bulanan Anda berdasarkan aktivitas sehari-hari.")
+st.write("Dikembangkan oleh: **Salwa Fritzi Florian** dan **Hairi Ilham Subing**")
+st.markdown("---")
 
 st.subheader("🚗 Transportasi")
 km_motor = st.number_input("Kilometer perjalanan dengan motor per bulan:", min_value=0.0, value=0.0)
@@ -41,5 +43,3 @@ with col2:
     st.metric(label="Total Emisi dalam Ton", value=f"{total_emisi_ton:.3f} ton CO₂")
 
 st.info("💡 Tips: Kurangi penggunaan kendaraan pribadi dan beralih ke energi efisien untuk menekan jejak karbon Anda!")
-st.markdown("---")
-st.caption("Dibuat oleh: **Salwa Fritzi Florian**")
