@@ -74,7 +74,8 @@ if st.button("Hitung Jejak Karbon Saya 🚀", type="primary"):
       + emisi_mobil
       + emisi_umum
       + emisi_listrik
-      + emisi_makanan )
+      + emisi_makanan 
+  )
   total_emisi_ ton = total_emisi_kg / 1000 
   # --- MENAMPILKAN HASIL ---
   st.subheader("📊 Hasil Perhitungan Anda")
