@@ -19,17 +19,17 @@ pilihan_makanan = st.selectbox(
     ["Tinggi Daging", "Seimbang (Daging Ayam/Ikan & Sayur)", "Vegetarian/Vegan"]
 )
 
-emisi_motor = km_motor * 00.00
-emisi_mobil = km_mobil * 00.00
-emisi_umum = transport_umum * 00.00
-emisi_listrik = kwh_listrik * 00.00
+emisi_motor = km_motor * 10.00
+emisi_mobil = km_mobil * 20.00
+emisi_umum = transport_umum * 50.00
+emisi_listrik = kwh_listrik * 24.00
 
 if pilihan_makanan == "Tinggi Daging":
-    emisi_makanan = 00.00
+    emisi_makanan = 300.0
 elif pilihan_makanan == "Seimbang (Daging Ayam/Ikan & Sayur)":
-    emisi_makanan = 00.00
+    emisi_makanan = 150.0
 else:
-    emisi_makanan = 00.00
+    emisi_makanan = 80.0
 
 total_emisi_kg = emisi_motor + emisi_mobil + emisi_umum + emisi_listrik + emisi_makanan
 total_emisi_ton = total_emisi_kg / 1000
