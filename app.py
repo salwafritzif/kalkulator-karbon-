@@ -32,7 +32,7 @@ else:
     emisi_makanan = 00.00
 
 total_emisi_kg = emisi_motor + emisi_mobil + emisi_umum + emisi_listrik + emisi_makanan
-total_emisi_ton = total_emisi_kg / 00.00
+total_emisi_ton = total_emisi_kg / 1000
 
 st.subheader("📊 Hasil Perhitungan Anda")
 
